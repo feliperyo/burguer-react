@@ -34,7 +34,7 @@ export const Paragraph = styled.p`
 export const Input = styled.input`
   width: 100%;
   height: 58px;
-  padding: 19px 139px 18px 15px;
+  padding: 19px 18px 18px 15px;
   border-radius: 14px;
   background: #ffffff40;
   border: none;
@@ -45,25 +45,4 @@ export const Input = styled.input`
   line-height: 21px;
   letter-spacing: 0px;
   text-align: left;
-`;
-
-export const Button = styled.button`
-  width: 100%;
-  height: 68px;
-  background: #d93856;
-  border: none;
-  cursor: pointer;
-  margin-top: 34px;
-  border-radius: 14px;
-  font-size: 17px;
-  font-weight: 900;
-  letter-spacing: 0px;
-
-  &:hover {
-    background: #ffa61f;
-  }
-
-  &:active {
-    opacity: 0.7;
-  }
 `;
