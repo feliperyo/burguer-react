@@ -11,4 +11,4 @@
 <br>
 <h3 align="center">Criação de API com Insomnia e ligação do Front-End com Back-End utilizando JSON.</h3>
 <br>
-<p align="center">Link para Repositório Node.js: https://github.com/feliperyo/hamburgueria-node</p>
+<p align="center">Link para Repositório Node.js: https://github.com/feliperyo/burguer-node</p>
