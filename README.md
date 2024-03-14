@@ -1,5 +1,5 @@
 <h1 align="center">
-  Hamburgueria</h1>
+  Burguer</h1>
 <br>
 <h3 align="center">Estudo de React.js e Node.js Front e Back-End.</h3>
 <br>
