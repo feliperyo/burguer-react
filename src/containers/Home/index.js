@@ -1,9 +1,11 @@
 import React, { useState, useRef } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { Image, H1, Paragraph, Input, Body, Container, Button } from "./styles";
+import { Image, Paragraph, Input, Body, Container } from "./styles";
 
 import Logo from "../../assets/logo-home.png";
+import Title from "../../components/Title";
+import NewButton from "../../components/Button";
 
 function App() {
   const [order, setOrder] = useState([]);
@@ -25,7 +27,7 @@ function App() {
     <Body>
       <header>
         <Image src={Logo} alt="logo" />
-        <H1>Faça Seu Pedido!</H1>
+        <Title>Faça Seu Pedido!</Title>
       </header>
       <Container>
         <Paragraph>Seu Pedido</Paragraph>
@@ -34,7 +36,7 @@ function App() {
         <Paragraph>Seu Nome</Paragraph>
         <Input ref={inputName} placeholder="Nome"></Input>
 
-        <Button onClick={addNewOrder}>Enviar Pedido</Button>
+        <NewButton onClick={addNewOrder}>Enviar Pedido</NewButton>
       </Container>
     </Body>
   );

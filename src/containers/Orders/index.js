@@ -2,18 +2,12 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-import {
-  Image,
-  H1,
-  Body,
-  Container,
-  LiOrder,
-  OrderClientName,
-  Button,
-} from "./styles";
+import { Image, Body, Container, LiOrder, OrderClientName } from "./styles";
 
 import Sacola from "../../assets/sacola.png";
 import Trash from "../../assets/trash.png";
+import Title from "../../components/Title";
+import NewButton from "../../components/Button";
 
 function Order() {
   const [order, setOrder] = useState([]);
@@ -44,7 +38,7 @@ function Order() {
     <Body>
       <header>
         <Image src={Sacola} alt="logo" />
-        <H1>Pedidos</H1>
+        <Title>Pedidos</Title>
       </header>
       <Container>
         <ul>
@@ -59,7 +53,9 @@ function Order() {
             </LiOrder>
           ))}
         </ul>
-        <Button onClick={goBackPage}>Voltar</Button>
+        <NewButton isBack={true} onClick={goBackPage}>
+          Voltar
+        </NewButton>
       </Container>
     </Body>
   );

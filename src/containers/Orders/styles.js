@@ -15,15 +15,6 @@ export const Image = styled.img`
   height: 300px;
 `;
 
-export const H1 = styled.h1`
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 33px;
-  letter-spacing: 0px;
-  text-align: center;
-  margin-bottom: 76px;
-`;
-
 export const Container = styled.main`
   display: flex;
   flex-direction: column;
@@ -71,26 +62,5 @@ export const LiOrder = styled.li`
     border: none;
     background-color: transparent;
     cursor: pointer;
-  }
-`;
-
-export const Button = styled.button`
-  width: 100%;
-  height: 68px;
-  background: #d93856;
-  border: none;
-  cursor: pointer;
-  margin-top: 34px;
-  border-radius: 14px;
-  font-size: 17px;
-  font-weight: 900;
-  letter-spacing: 0px;
-
-  &:hover {
-    background: #ffa61f;
-  }
-
-  &:active {
-    opacity: 0.7;
   }
 `;
